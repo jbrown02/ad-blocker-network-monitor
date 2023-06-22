@@ -29,6 +29,8 @@ sudo pihole enable
 sudo pihole disable
 ```
 
+You can access the Pi Hole admin portal at: http://[IPADDRESS]/admin (http://192.168.12.144/admin for this example)
+
 If your WiFi router isn’t cofigurable (T-Mobile), you will have to add the Pi Hole's IP address as a DNS server locally on your device instead of following the tutorials directly (they want you to edit the DNS settings on your router). This should be an available option in your network settings.
 
 ## Links
