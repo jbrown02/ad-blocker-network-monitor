@@ -14,7 +14,7 @@ Alternatively, you can run it automatically on boot with:
 sudo ln -s /etc/init.d/nagios /etc/rcS.d/S99nagios
 ```
 
-Then, navigate to: http://[IPADDRESS]/nagios (in this case, http://[192.168.12.144]/nagios
+Then, navigate to: http://[IPADDRESS]/nagios (in this case, http://192.168.12.144/nagios
 ) to access the network moitor UI. If you don’t know your password, the following command can be used to change the password on the main user account, which is "Pi" for our purposes:
 
 ```
