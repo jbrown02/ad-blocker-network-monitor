@@ -15,7 +15,21 @@ sudo ln -s /etc/init.d/nagios /etc/rcS.d/S99nagios
 ```
 
 Then, navigate to: http://[IPADDRESS]/nagios (in this case, http://[192.168.12.144]/nagios
-) to access the network moitor UI. The Pi Hole, on the other had, will be running as soon as the Pi is tured on. If your WiFi router isn’t cofigurable (T-Mobile), you will have to add the Pi Hole's IP address as a DNS server locally on your device. This should be an available option in your network settings.
+) to access the network moitor UI. If you don’t know your password, the following command can be used to change the password on the main user account, which is "Pi" for our purposes:
+
+```
+sudo htpasswd /usr/local/nagios/etc/htpasswd.users pi
+```
+
+The Pi Hole, on the other had, should be running as soon as the Pi is tured on as a default setting.  You can, however, use these commands to interface with the Pi Hole package:
+
+```
+sudo pihole status
+sudo pihole enable
+sudo pihole disable
+```
+
+If your WiFi router isn’t cofigurable (T-Mobile), you will have to add the Pi Hole's IP address as a DNS server locally on your device instead of following the tutorials directly (they want you to edit the DNS settings on your router). This should be an available option in your network settings.
 
 ## Links
 
