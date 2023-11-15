@@ -1,4 +1,4 @@
-# CNE 350 Final - Justin Ellis, Spring 2023
+# Ad Blocker (Pi Hole) and Network Monitor (Nagios Core)
 
 ## Running
 
