@@ -15,7 +15,7 @@ sudo ln -s /etc/init.d/nagios /etc/rcS.d/S99nagios
 ```
 
 Then, navigate to: http://[IPADDRESS]/nagios (in this case, http://192.168.12.144/nagios
-) to access the network moitor UI. If you don’t know your password, the following command can be used to change the password on the main user account, which is "Pi" for our purposes:
+) to access the network monitor UI. If you don’t know your password, the following command can be used to change the password on the main user account, which is "Pi" for our purposes:
 
 ```
 sudo htpasswd /usr/local/nagios/etc/htpasswd.users pi
